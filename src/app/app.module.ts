@@ -9,30 +9,13 @@ import { HeroDetailComponent }  from './components/hero-detail.component';
 import { HeroesComponent }      from './components/heroes.component';
 import { HeroService }          from './services/hero.service';
 
+import { AppRoutingModule } from './app-routing.module';
+
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot([
-      {
-        path: 'heroes',
-        component: HeroesComponent
-      
-      },
-      {
-        path: 'dashboard',
-        component: DashboardComponent
-      },
-      {
-        path: '',
-        redirectTo: '/dashboard',
-        pathMatch: 'full'
-      },
-      {
-        path: 'detail/:id',
-        component: HeroDetailComponent
-      }
-    ])
+    AppRoutingModule
   ],
   declarations: [
     AppComponent,
@@ -40,9 +23,7 @@ import { HeroService }          from './services/hero.service';
     HeroDetailComponent,
     HeroesComponent
   ],
-  providers: [
-    HeroService
-  ],
+  providers: [ HeroService ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
