@@ -3,8 +3,8 @@ import { OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { HeroDetailComponent} from './hero-detail.component';
-import { Hero } from '../classes/hero';
-import { HeroService } from '../services/hero.service';
+import { Hero } from '../../classes/hero';
+import { HeroService } from '../../services/hero.service';
 
 @Component({
   selector: 'my-heroes',
@@ -46,7 +46,7 @@ export class HeroesComponent implements OnInit{
   }
 
   getHeroes(): void {
-    this.heroService.getHerores().then(heroes => this.heroes = heroes);
+    this.heroService.getHeroes().then(heroes => this.heroes = heroes);
   }
 
   onSelect(hero: Hero): void {

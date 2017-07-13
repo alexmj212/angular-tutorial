@@ -8,11 +8,11 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './services/in-memory-data.service';
 
 import { AppComponent }         from './components/app.component';
-import { DashboardComponent }   from './components/dashboard.component';
-import { HeroDetailComponent }  from './components/hero-detail.component';
-import { HeroesComponent }      from './components/heroes.component';
+import { DashboardComponent }   from './components/dashboard/dashboard.component';
+import { HeroDetailComponent }  from './components/hero/hero-detail.component';
+import { HeroesComponent }      from './components/hero/heroes.component';
 import { HeroService }          from './services/hero.service';
-import { HeroSearchComponent }  from './components/hero-search.component';
+import { HeroSearchComponent }  from './components/hero/hero-search.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
