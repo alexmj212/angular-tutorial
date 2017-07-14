@@ -61,4 +61,3 @@ HeroSearchComponent = __decorate([
         router_1.Router])
 ], HeroSearchComponent);
 exports.HeroSearchComponent = HeroSearchComponent;
-//# sourceMappingURL=hero-search.component.js.map

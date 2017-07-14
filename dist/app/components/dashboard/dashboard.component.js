@@ -32,4 +32,3 @@ DashboardComponent = __decorate([
     __metadata("design:paramtypes", [hero_service_1.HeroService])
 ], DashboardComponent);
 exports.DashboardComponent = DashboardComponent;
-//# sourceMappingURL=dashboard.component.js.map

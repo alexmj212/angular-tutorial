@@ -12,4 +12,3 @@ var HeroListComponent = (function () {
     return HeroListComponent;
 }());
 exports.HeroListComponent = HeroListComponent;
-//# sourceMappingURL=hero-list.component.js.map

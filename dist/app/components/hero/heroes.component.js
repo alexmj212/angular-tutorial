@@ -67,4 +67,3 @@ HeroesComponent = __decorate([
         router_1.Router])
 ], HeroesComponent);
 exports.HeroesComponent = HeroesComponent;
-//# sourceMappingURL=heroes.component.js.map

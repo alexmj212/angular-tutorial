@@ -28,4 +28,3 @@ HeroSearchService = __decorate([
     __metadata("design:paramtypes", [http_1.Http])
 ], HeroSearchService);
 exports.HeroSearchService = HeroSearchService;
-//# sourceMappingURL=hero-search.service.js.map
